@@ -1,6 +1,6 @@
 {
   "name": "rework-imagesize",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Read an image and use it's size as values for properties.",
   "main": "imagesize.js",
   "scripts": {
@@ -32,3 +32,4 @@
     "rework": "~0.18.3"
   }
 }
+
