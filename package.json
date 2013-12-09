@@ -1,0 +1,28 @@
+{
+  "name": "rework-imagesize",
+  "version": "0.0.0",
+  "description": "Read an image and use it's size as values for properties.",
+  "main": "imagesize.js",
+  "scripts": {
+    "test": "mocha -u tdd -r spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simme/rework-imagesize.git"
+  },
+  "keywords": [
+    "rework",
+    "image",
+    "size",
+    "css"
+  ],
+  "author": "Simon Ljungberg <hi@iamsim.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simme/rework-imagesize/issues"
+  },
+  "peerDependencies": {
+    "rework": "~0.18.3"
+  }
+}
+
