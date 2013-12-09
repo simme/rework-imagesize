@@ -4,7 +4,7 @@
   "description": "Read an image and use it's size as values for properties.",
   "main": "imagesize.js",
   "scripts": {
-    "test": "mocha -u tdd -r spec"
+    "test": "mocha -u tdd -R spec"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,12 @@
   },
   "peerDependencies": {
     "rework": "~0.18.3"
+  },
+  "dependencies": {
+    "imagesize": "~1.0.0",
+    "rework-visit": "~1.0.0"
+  },
+  "devDependencies": {
+    "rework": "~0.18.3"
   }
 }
-
